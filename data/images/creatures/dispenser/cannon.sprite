@@ -1,0 +1,38 @@
+(supertux-sprite
+ (action
+  (name "auto")
+  (hitbox 4 4 32 64)
+  (images "canon.png"))
+
+ (action
+  (name "iced-auto")
+  (loops 1)
+  (fps 24)
+  (hitbox 4 4 32 64)
+  (images "canon-frozen.png"))
+
+ (action
+  (name "right")
+  (hitbox 4 4 32 64)
+  (images "canon.png"))
+
+ (action
+  (name "iced-right")
+  (loops 1)
+  (fps 24)
+  (hitbox 4 4 32 64)
+  (images "canon-frozen.png"))
+
+ (action
+  (name "left")
+  (hitbox 4 4 32 64)
+  (images "canon.png"))
+
+ (action
+  (name "iced-left")
+  (loops 1)
+  (fps 24)
+  (hitbox 4 4 32 64)
+  (images "canon-frozen.png"))
+)
+

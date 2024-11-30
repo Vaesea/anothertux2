@@ -1,0 +1,5 @@
+(supertux-music
+  (file "arcticair.ogg")
+  (loop-begin 6)
+  (loop-at    105)
+)

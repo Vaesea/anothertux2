@@ -1,0 +1,13 @@
+(supertux-sprite
+	(action
+	  (name "normal")
+	  (hitbox 15 0 27 27)
+	  (images "coconut.png"))
+	(action
+	  (name "yeti-stalactite")
+	  (hitbox 15 0 27 27)
+	  (images "../../engine/editor/stalactite_yeti.png"))
+	(action
+	  (name "squished")
+	  (hitbox 15 0 27 27)
+	  (images "coconutb.png")))

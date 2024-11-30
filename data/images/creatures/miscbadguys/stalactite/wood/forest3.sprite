@@ -1,0 +1,9 @@
+(supertux-sprite
+	(action
+	  (name "normal")
+	  (hitbox 0 4 31 39)
+	  (images "forest_stalactite_3.png"))
+	(action
+	  (name "squished")
+	  (hitbox 0 9 31 39)
+	  (images "forest_stalactite_3_smashed.png")))

@@ -1,0 +1,14 @@
+(supertux-sprite
+	(action
+	  (name "normal")
+	  (hitbox 0 4 34 38)
+	  (images "normal.png"))
+	(action
+	  (name "falling")
+	  (hitbox 0 4 34 38)
+	  (images "falling.png"))
+	(action
+	  (name "squished")
+	  (hitbox 0 9 34 38)
+	  (images "smashednotyetmade.png"))
+)

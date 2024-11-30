@@ -1,0 +1,32 @@
+(supertux-sprite
+  ;; Hue: +115
+  (action
+    (name "left")
+    (hitbox 5 12 32 32)
+    (fps 14)
+    (images "smartball-0.png"
+            "smartball-1.png"
+            "smartball-2.png"
+            "smartball-3.png"
+            "smartball-4.png"
+            "smartball-5.png"
+            "smartball-6.png"
+            "smartball-7.png")
+  )
+  (action
+    (name "right")
+    (hitbox 7 12 32 32)
+    (fps 14)
+    (mirror-action "left")
+  )
+  (action
+    (name "squished-left")
+    (hitbox 1 -19 31.8 31.8)
+    (images "mrs-squished-left.png")
+  )
+  (action
+    (name "squished-right")
+    (hitbox 1 -19 31.8 31.8)
+    (mirror-action "squished-left")
+  )
+)

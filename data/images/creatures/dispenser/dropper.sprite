@@ -1,0 +1,14 @@
+(supertux-sprite
+ (action
+  (name "dropper")
+  (hitbox 2 3 64 32)
+  (images "dropper.png"))
+
+ (action
+  (name "dropper-iced")
+  (loops 1)
+  (fps 24)
+  (hitbox 2 3 64 32)
+  (images "dropper-frozen.png"))
+)
+

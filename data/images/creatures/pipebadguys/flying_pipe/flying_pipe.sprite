@@ -1,0 +1,31 @@
+(supertux-sprite
+ (action
+  (name "left")
+  (fps 10)
+  (hitbox 3 5 56 70)
+  (images "fp-0.png"
+          "fp-1.png"
+          "fp-2.png"
+          "fp-3.png"))
+ 
+ (action
+  (name "right")
+  (fps 10)
+  (hitbox 12 5 56 70)
+  (mirror-action "left"))
+
+ (action
+  (name "squished-left")
+  (hitbox 3 5 56 70)
+  (images "fp-squished.png"))
+
+ (action
+  (name "squished-right")
+  (hitbox 12 5 60 70)
+  (mirror-action "squished-left"))
+
+ (action
+  (name "editor")
+  (hitbox 0 0 70 80)
+  (images "fp-0.png"))
+)

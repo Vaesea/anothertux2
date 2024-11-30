@@ -1,0 +1,3 @@
+This exists because worldmap.
+
+I'm too lazy to edit any .sprite files today.
