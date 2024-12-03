@@ -27,7 +27,7 @@ static const float FISH_BEACH_TIME = 5.f;
 static const float FISH_FLOAT_TIME = 2.f;
 
 FishSwimming::FishSwimming(const ReaderMapping& reader) :
-  BadGuy(reader, "images/creatures/miscbadguys/fish/swimming_fish.sprite"),
+  BadGuy(reader, "images/creatures/miscbadguys/fish/swimming_fish/swimming_fish.sprite"),
   m_state(FishYState::BALANCED),
   m_beached_timer(),
   m_float_timer(),

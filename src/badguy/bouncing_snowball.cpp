@@ -35,7 +35,7 @@ BouncingSnowball::BouncingSnowball(const ReaderMapping& reader) :
 }
 
 BouncingSnowball::BouncingSnowball(const Vector& pos, Direction d, float x_vel) :
-  BadGuy(pos, d, "images/creatures/snowbadguys/snowball/bouncing/bouncing_snowball/bouncing_snowball.sprite"),
+  BadGuy(pos, d, "images/creatures/snowbadguys/snowball/bouncing/bouncing_snowball.sprite"),
   m_x_speed(),
   m_turn_around_timer(),
   m_turn_around_counter()

@@ -27,12 +27,12 @@
 #include "util/reader_mapping.hpp"
 
 DartTrap::DartTrap(const ReaderMapping& reader) :
-  StickyBadguy(reader, "images/creatures/dart_trap/dart_trap.sprite", get_allowed_directions()[0], LAYER_TILES-1, COLGROUP_MOVING),
+  StickyBadguy(reader, "images/creatures/miscbadguys/dart_trap/dart_trap.sprite", get_allowed_directions()[0], LAYER_TILES-1, COLGROUP_MOVING),
   m_enabled(true),
   m_initial_delay(),
   m_fire_delay(),
   m_ammo(),
-  m_dart_sprite("images/creatures/dart/dart.sprite"),
+  m_dart_sprite("images/creatures/miscbadguys/dart_trap/dart/dart.sprite"),
   m_state(IDLE),
   m_fire_timer()
 {
@@ -43,11 +43,11 @@ DartTrap::DartTrap(const ReaderMapping& reader) :
   reader.get("initial-delay", m_initial_delay, 0.0f);
   reader.get("fire-delay", m_fire_delay, 2.0f);
   reader.get("ammo", m_ammo, -1);
-  reader.get("dart-sprite", m_dart_sprite, "images/creatures/dart/dart.sprite");
+  reader.get("dart-sprite", m_dart_sprite, "images/creatures/miscbadguys/dart_trap/dart/dart.sprite");
 
   m_countMe = false;
   SoundManager::current()->preload("sounds/dartfire.wav");
-  if (m_start_dir == Direction::AUTO) { log_warning << "Setting a Dart Trap's direction to AUTO may cause problems" << std::endl; }
+  if (m_start_dir == Direction::AUTO) { log_warning << "Setting a Dart Trap's direction to AUTO will destroy the entire universe" << std::endl; }
   m_state = IDLE;
   set_group(COLGROUP_DISABLED);
 
@@ -156,7 +156,7 @@ DartTrap::get_settings()
   result.add_bool(_("Enabled"), &m_enabled, "enabled", true);
   result.add_float(_("Fire delay"), &m_fire_delay, "fire-delay");
   result.add_int(_("Ammo"), &m_ammo, "ammo");
-  result.add_sprite(_("Dart sprite"), &m_dart_sprite, "dart-sprite", "images/creatures/dart/dart.sprite");
+  result.add_sprite(_("Dart sprite"), &m_dart_sprite, "dart-sprite", "images/creatures/miscbadguys/dart_trap/dart/dart.sprite");
 
   result.reorder({"initial-delay", "fire-delay", "ammo", "sticky", "direction", "x", "y", "dart-sprite"});
 
@@ -178,7 +178,7 @@ DartTrap::get_default_sprite_name() const
   switch (m_type)
   {
     case SKULL:
-      return "images/creatures/darttrap/darttrap.sprite";
+      return "images/creatures/miscbadguys/dart_trap/dart_trap.sprite";
     case GRANITO:
       return "images/creatures/darttrap/granito/darttrap_granito.sprite";
   }
@@ -223,10 +223,10 @@ DartTrap::on_type_change(int old_type)
   switch (m_type)
   {
     case GRANITO:
-      m_dart_sprite = "images/creatures/darttrap/granito/root_dart.sprite";
+      m_dart_sprite = "images/creatures/miscbadguys/dart_trap/granito/dart/dart.sprite";
       break;
     case SKULL:
-      m_dart_sprite = "images/creatures/darttrap/skull/skull_dart.sprite";
+      m_dart_sprite = "images/creatures/miscbadguys/dart_trap/dart/dart.sprite";
       break;
   }
 }

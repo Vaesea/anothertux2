@@ -31,13 +31,13 @@
 static const std::string FLAME_SOUND = "sounds/flame.wav";
 
 Flame::Flame(const ReaderMapping& reader, int type) :
-  BadGuy(reader, "images/creatures/miscbadguys/flame/flame.sprite", LAYER_FLOATINGOBJECTS,
+  BadGuy(reader, "images/creatures/miscbadguys/flame//fire/flame.sprite", LAYER_FLOATINGOBJECTS,
          "images/objects/lightmap_light/lightmap_light-small.sprite"),
   angle(0),
   radius(),
   speed(),
   sound_source(),
-  m_radius_indicator(Surface::from_file("images/creatures/miscbadguys/flame/flame-editor.png"))
+  m_radius_indicator(Surface::from_file("images/creatures/miscbadguys/flame/fire/flame-editor.png"))
 {
   if (type >= 0)
   {
@@ -94,9 +94,9 @@ Flame::get_default_sprite_name() const
   switch (m_type)
   {
     case GHOST:
-      return "images/creatures/miscbadguys/flame/ghostflame.sprite";
+      return "images/creatures/miscbadguys/flame/ghost/ghostflame.sprite";
     case ICE:
-      return "images/creatures/miscbadguys/flame/iceflame.sprite";
+      return "images/creatures/miscbadguys/flame/ice/iceflame.sprite";
     default:
       return m_default_sprite_name;
   }
