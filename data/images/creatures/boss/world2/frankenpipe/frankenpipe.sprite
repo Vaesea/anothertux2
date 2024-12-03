@@ -1,9 +1,0 @@
-(supertux-sprite
-  (action
-    (name "default")
-    (hitbox 4 8 32 32)
-	  (fps 2)
-    (images "1.png"
-			"2.png"
-  )
-)
