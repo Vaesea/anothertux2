@@ -71,17 +71,17 @@ const std::vector<std::string> IDLE_STAGES
 
 /** acceleration in horizontal direction when walking
  * (all accelerations are in  pixel/s^2) */
-const float WALK_ACCELERATION_X = 300;
+const float WALK_ACCELERATION_X = 350;
 /** acceleration in horizontal direction when running */
-const float RUN_ACCELERATION_X = 400;
+const float RUN_ACCELERATION_X = 450;
 /** acceleration when skidding */
 const float SKID_XM = 200;
 /** time of skidding in seconds */
 const float SKID_TIME = .3f;
 /** maximum walk velocity (pixel/s) */
-const float MAX_WALK_XM = 230;
+const float MAX_WALK_XM = 280;
 /** maximum run velocity (pixel/s) */
-const float MAX_RUN_XM = 320;
+const float MAX_RUN_XM = 370;
 /** bonus run velocity addition (pixel/s) */
 const float BONUS_RUN_XM = 80;
 /** maximum horizontal climb velocity */
@@ -93,7 +93,7 @@ const float MAX_GLIDE_YM = 128;
 /** sliding down walls velocity */
 const float MAX_WALLCLING_YM = 64;
 /** instant velocity when tux starts to walk */
-const float WALK_SPEED = 100;
+const float WALK_SPEED = 150;
 /** rate at which m_boost decreases */
 const float BOOST_DECREASE_RATE = 500;
 /** rate at which the speed decreases if going above maximum */
@@ -112,15 +112,15 @@ const float KICK_TIME = .3f;
 const float UNDUCK_HURT_TIME = 0.25f;
 /** gravity is higher after the jump key is released before
     the apex of the jump is reached */
-const float JUMP_EARLY_APEX_FACTOR = 3.0;
+const float JUMP_EARLY_APEX_FACTOR = 8.0;
 
-const float JUMP_GRACE_TIME = 0.25f; /**< time before hitting the ground that the jump button may be pressed (and still trigger a jump) */
-const float COYOTE_TIME = 0.1f; /**< time between the moment leaving a platform without jumping and being able to jump anyways despite being in the air */
+const float JUMP_GRACE_TIME = 0.22f; /**< time before hitting the ground that the jump button may be pressed (and still trigger a jump) */
+const float COYOTE_TIME = 0.15f; /**< time between the moment leaving a platform without jumping and being able to jump anyways despite being in the air */
 
-const float MAX_SLIDE_SPEED = 700.f; /**< Max speed for sliding */
-const float MAX_FALL_SLIDE_SPEED = 475.f; /**< Max slide speed that Tux can get from falling */
-const float DOWN_SLIDE_ACCEL = 1000.f; /** < Acceleration for sliding DOWN slopes */
-const float UP_SLIDE_ACCEL = 1100.f; /**< Acceleration for sliding UP slopes */
+const float MAX_SLIDE_SPEED = 800.f; /**< Max speed for sliding */
+const float MAX_FALL_SLIDE_SPEED = 575.f; /**< Max slide speed that Tux can get from falling */
+const float DOWN_SLIDE_ACCEL = 1100.f; /** < Acceleration for sliding DOWN slopes */
+const float UP_SLIDE_ACCEL = 1200.f; /**< Acceleration for sliding UP slopes */
 
 const float MAX_SLIDE_ROTATING_TIME = 0.15f;
 const float MIN_SLIDE_ROTATING_TIME = 0.075f;
@@ -133,7 +133,7 @@ const float BIG_TUX_HEIGHT = 62.8f;
 const float DUCKED_TUX_HEIGHT = 31.8f;
 
 /* Stone Tux variables */
-const float MAX_STONE_SPEED = 500.f;
+const float MAX_STONE_SPEED = 700.f;
 const float STONE_KEY_ACCELERATION = 200.f;
 const float STONE_DOWN_ACCELERATION = 300.f;
 const float STONE_UP_ACCELERATION = 400.f;
@@ -148,8 +148,8 @@ const std::array<std::string, 2> BUBBLE_ACTIONS = { "normal", "small" };
 
 /* Buttjump variables */
 
-const float BUTTJUMP_WAIT_TIME = 0.2f; // the length of time that the buttjump action is being played
-const float BUTTJUMP_SPEED = 800.f;
+const float BUTTJUMP_WAIT_TIME = 0.1f; // the length of time that the buttjump action is being played
+const float BUTTJUMP_SPEED = 900.f;
 
 } // namespace
 
