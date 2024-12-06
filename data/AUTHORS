@@ -28,25 +28,25 @@ Test levels are created by SuperTux developers to test specific code and so are 
 
 License should be included with them.
 
-== Music ==
+== Music - Present ==
 
-* chipdiskoremix.ogg - Mortimer's Chipdisko by Lukas Nystrand as Mortimer Twang, remix (chipdiskoremix.ogg) by Sophie "Vaesea" Ball, based on a midi by Nathan "Chitan" Lieb, licensed under CC-BY-SA + GPL and/or whatever the midi is licensed under.
+* cold_cave.ogg - By Sophie "Vaesea" Ball, licensed under CC-BY-SA-4.0, GPL v3
 
-* cave.ogg - By Sophie "Vaesea" Ball, licensed under CC-BY-SA-4.0, GPL v3
-
-* nearthefishes.ogg - By Sophie "Vaesea" Ball, licensed under CC-BY-SA-4.0, GPL v3
-
-* nightfreeze.ogg - By Sophie "Vaesea" Ball, licensed under CC-BY-SA-4.0, GPL v3
+* the_cave.ogg - created by wansti and licensed under GPLv2+CC-by-sa
 
 * bossattackremix.ogg - Original song by Wansti, remix by Sophie "Vaesea" Ball, licensed under GPLv2+CC-by-sa
 
+* bossattack07.ogg - created by wansti and licensed under GPLv2+CC-by-sa
+
 * darkcastle.ogg - By Sophie "Vaesea" Ball, licensed under CC-BY-SA-4.0, GPL v3
 
-* arcticair.ogg - By Sophie "Vaesea" Ball, licensed under CC-BY-SA-4.0, GPL v3
+* the_fortress.ogg - created by wansti and licensed under GPLv2+CC-by-sa
+
+* dfk_symphonic.ogg - created by wansti and licensed under GPLv2+CC-by-sa
 
 * frozenworld.ogg - By Sophie "Vaesea" Ball, licensed under CC-BY-SA-4.0, GPL v3
 
-* credits.ogg - Original song by Wansti, remix by Sophie "Vaesea" Ball, licensed under GPLv2+CC-by-sa
+* credits.ogg - Original song by Wansti (SuperTux Theme), remix by Sophie "Vaesea" Ball, licensed under GPLv2+CC-by-sa
 
 * intro.ogg - created by wansti and licensed under GPLv2+CC-by-sa
 
@@ -58,12 +58,19 @@ License should be included with them.
 
 * thebeginning.ogg - By Sophie "Vaesea" Ball, licensed under CC-BY-SA-4.0, GPL v3
 
-* blurry_xmas_jam.ogg - By BLuRry on modarchive.org, https://modarchive.org/index.php?request=view_by_moduleid&query=139150, licensed under CC-BY-SA-4.0
-
 * 69027-at_the_top.ogg - By Zilly Mike on modarchive.org, https://modarchive.org/index.php?request=view_by_moduleid&query=169999, licensed under CC-BY-4.0
 
-* merrychritstmas.ogg - By JAM on modarchive.org, https://modarchive.org/index.php?request=view_by_moduleid&query=179409, licensed under one of these https://creativecommons.org/publicdomain/
+== Music - Past ==
 
+* chipdiskoremix.ogg - Mortimer's Chipdisko by Lukas Nystrand as Mortimer Twang, remix (chipdiskoremix.ogg) by Sophie "Vaesea" Ball, based on a midi by Nathan "Chitan" Lieb, licensed under CC-BY-SA + GPL and/or whatever the midi is licensed under.
+
+* the_cave.ogg - created by wansti and licensed under GPLv2+CC-by-sa
+
+* bossattack07.ogg - created by wansti and licensed under GPLv2+CC-by-sa
+
+* the_fortress.ogg - created by wansti and licensed under GPLv2+CC-by-sa
+
+* dfk_symphonic.ogg - created by wansti and licensed under GPLv2+CC-by-sa
 
 == Scripts ==
 
