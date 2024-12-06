@@ -1,0 +1,10 @@
+(supertux-sprite
+      (action 
+          (name "normal")
+          (images "power_crystal_1.png"
+                  "power_crystal_2.png"
+                  "power_crystal_3.png"
+                  "power_crystal_4.png"
+                  "power_crystal_3.png"
+                  "power_crystal_2.png"))
+)
