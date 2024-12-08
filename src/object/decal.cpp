@@ -25,7 +25,7 @@
 #include "util/reader_mapping.hpp"
 
 Decal::Decal(const ReaderMapping& reader) :
-  MovingSprite(reader, "images/decal/explanations/billboard-bigtux.png", LAYER_OBJECTS, COLGROUP_DISABLED),
+  MovingSprite(reader, "images/decal/lightflower/lightflower1.png", LAYER_OBJECTS, COLGROUP_DISABLED),
   m_default_action("default"),
   m_solid(),
   m_fade_sprite(m_sprite.get()->clone()),

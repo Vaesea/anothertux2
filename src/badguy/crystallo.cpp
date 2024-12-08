@@ -21,7 +21,7 @@
 #include "util/reader_mapping.hpp"
 
 Crystallo::Crystallo(const ReaderMapping& reader) :
-  WalkingBadguy(reader, "images/creatures/snowbadguys/crystallo/crystallo.sprite", "left", "right"),
+  WalkingBadguy(reader, "images/creatures/crystalbadguys/crystallo/crystallo.sprite", "left", "right"),
   m_radius()
 {
   walk_speed = 80;
@@ -31,7 +31,7 @@ Crystallo::Crystallo(const ReaderMapping& reader) :
 
 Crystallo::Crystallo(const Vector& pos, const Vector& start_pos, float vel_x, std::unique_ptr<Sprite> sprite,
                      Direction dir, float radius, const std::string& script) :
-  WalkingBadguy(pos, dir, "images/creatures/snowbadguys/crystallo/crystallo.sprite", "left", "right"),
+  WalkingBadguy(pos, dir, "images/creatures/crystalbadguys/crystallo/crystallo.sprite", "left", "right"),
   m_radius(radius)
 {
   m_physic.set_velocity_x(vel_x);
