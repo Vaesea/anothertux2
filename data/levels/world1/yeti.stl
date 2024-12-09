@@ -3,7 +3,7 @@
   (name (_ "The Ice King"))
   (author "Sophie Ball")
   (license "CC-BY-SA 4.0 International")
-  (target-time 29)
+  (target-time 28)
   (icon "")
   (icon-locked "")
   (statistics
@@ -14,15 +14,12 @@
   (sector
     (name "main")
     (ambient-light
-      (color 1 1 1)
+      (color 0.9 1 1)
     )
     (background
-      (scroll-offset-y -1000)
       (color 1 1 1)
-      (speed 0.1)
-      (image-top "/images/background/icyisland/icecliffs/icecliffs-top.png")
-      (image "/images/background/icyisland/icecliffs/icecliffs-middle.png")
-      (image-bottom "/images/background/icyisland/icecliffs/icecliffs-bottom.png")
+      (speed 0.2)
+      (image "/images/background/icecliffs/icecliffs-bottom.png")
     )
     (bouncingsnowball
       (z-pos 50)
@@ -39,7 +36,7 @@
       (z-pos -301)
     )
     (music
-      (file "/music/boss/bossattackremix.music")
+      (file "/music/boss/present_yeti.music")
     )
     (spawnpoint
       (name "main")
@@ -169,10 +166,10 @@
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       0 0 0 0 0 0 0 0 2909 2910 8 2913 2914 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       8 8 8 8 8 8 2921 2922 2911 2912 14 2915 2916 2917 2918 8 8 8 8 8 8 8 8 9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-      14 14 14 14 14 3990 2923 2924 1834 11 11 11 1835 2919 2920 3988 14 14 14 14 14 14 14 15 50 49 28 28 28 28 28 28 28 28 28 28 28 28 28 28
-      11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 12 51 52 28 28 28 28 28 28 28 28 28 28 28 28 28 28
-      11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 12 212 212 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-      11 11 11 11 11 11 11 11 19 11 11 11 11 11 11 11 11 11 11 11 11 11 11 12 212 212 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      14 14 14 14 14 3990 2923 2924 1834 11 11 11 1835 2919 2920 3988 14 14 14 14 14 14 14 15 3185 3186 3183 3184 3183 3184 3183 3184 3183 3184 3183 3184 3183 3184 3183 3184
+      11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 12 3191 3192 3170 3183 3184 3183 3184 3183 3184 3183 3184 3183 3184 3183 3184 3183
+      11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 12 3170 3189 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      11 11 11 11 11 11 11 11 19 11 11 11 11 11 11 11 11 11 11 11 11 11 11 12 3189 3190 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       )
     )
     (tilemap
@@ -217,6 +214,29 @@
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       )
+    )
+    (torch
+      (sprite "/images/objects/torch/torch3.sprite")
+      (z-pos 0)
+      (x 1088)
+      (y 896)
+    )
+    (torch
+      (z-pos 0)
+      (x 384)
+      (y 864)
+    )
+    (torch
+      (sprite "/images/objects/torch/torch4.sprite")
+      (z-pos 1)
+      (x 960)
+      (y 960)
+    )
+    (torch
+      (sprite "/images/objects/torch/torch4.sprite")
+      (z-pos 1)
+      (x 1216)
+      (y 960)
     )
     (yeti
       (z-pos 50)

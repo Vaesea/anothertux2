@@ -1,0 +1,12 @@
+(supertux-sprite
+  (action
+    (name "left")
+    (hitbox 5 8 32 32)
+    (images "cs-1.png")
+  )
+  (action
+    (name "right")
+    (hitbox 7 8 32 32)
+    (mirror-action "left")
+  )
+)
